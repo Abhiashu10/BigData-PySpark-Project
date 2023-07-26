@@ -1,6 +1,6 @@
 
 ## 🚀 About Me
-I'm Ashutosh pursuing Masters in applied machine intelligence and as part of my Big Data course I have utlized the big data analytics tool and performed an analysis on the metadata of the airline flights that occurred in the United States between the years 1987 and 2008. To begin, it is necessary for us to investigate the past of aviation in the United States. Before the 1920s, people in the United States first began traveling by airplane.
+I'm Ashutosh pursuing Masters in applied machine intelligence and as part of my Big Data course, I have utlized the big data analytics tool and performed an analysis on the metadata of the airline flights that occurred in the United States between the years 1987 and 2008. To begin, it is necessary for us to investigate the past of aviation in the United States. Before the 1920s, people in the United States first began traveling by airplane.
 
 
 
@@ -26,9 +26,8 @@ Using the big data analytics tool, we performed an analysis on the metadata of t
 
 
 # Extracting the Data: glob function
-We have about 26 CSV files, and we have used the glob faction to combine all of the CSV files that have the same pattern into a single massive file that we have called csv files.
+We have about 26 CSV files, and we have used the glob faction to combine all of the CSV files that have the same pattern into a single massive file that we have called csv files. df spark data frame contains 118.9 million records and 29 different variables. We have utilized Spark API to perform analysis on the large dataset. 
 
-df spark data frame contains 118.9 million records and 29 different variables.
 # Data cleaning
 Because our primary focus was on airport traffic and canceled flights, and because our analysis contains 29 columns, we do not make extensive use of the majority of the columns. The amount of time it takes to complete a command will increase if we include those columns in our dataset that are not being used. Therefore, we reduced the number of columns in the data frame from 17 to 12, which was more manageable.
 
